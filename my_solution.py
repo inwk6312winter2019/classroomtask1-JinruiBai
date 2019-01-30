@@ -2,7 +2,7 @@
 import os
 def traverse_list(dictionary):
 	Filelist=[]
-	for file in listdir(dictionary):
+	for file in os.listdir(dictionary):
 		Filelist.append(file)
 		print(Filelist)
 
